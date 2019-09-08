@@ -1,17 +1,48 @@
 body{
-    background-image: url(./bmBG.jpg)
+    background: #EE048B;
+}
+.panel1 {
+    /* background-image: url(./bg.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* width: 100%; */
+    /* height: 75vh; */
+}
+p{
+    margin: 0;
+}
+.panel-content {
+    background-color: #000;
+    opacity: .7;
+    color: white;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+textarea{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+    align-content: center;
+}
+.click{
+    margin-top: 5px;
+    margin-left: 33vw;
+}
+.contact{
+    background-color: #000;
+    opacity: .5;
+    color: white;
+    /* text-align: center; */
+    /* align-content: center; */
+    /* width: 100%; */
+}
+#logo {
+    align-content: center;
 }
 
-.header{
+.header {
     text-align: center;
-}
-#calendar{
-    margin-top: 2em;
-    list-style-type: none;
-}
-#calendar li{
-    /* background-color: white; */
-    background-color: rgba(223, 61, 20, 0.4);
-    border: 1px solid #000;
-    margin-top:1em;
 }
