@@ -1,0 +1,17 @@
+body{
+    background-image: url(./bmBG.jpg)
+}
+
+.header{
+    text-align: center;
+}
+#calendar{
+    margin-top: 2em;
+    list-style-type: none;
+}
+#calendar li{
+    /* background-color: white; */
+    background-color: rgba(223, 61, 20, 0.4);
+    border: 1px solid #000;
+    margin-top:1em;
+}
