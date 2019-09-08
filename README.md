@@ -1,0 +1,1 @@
+Hello everyone! Had some trouble sleeping so I spent a few minutes putting together v1 of the app.  It's super basic right now, but at least I've got a target to aim for, and everyone can check on progress. Harold Wright: I hope you don't mind that I've used your images. Please let me know if you'd like that changed.

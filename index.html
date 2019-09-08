@@ -30,20 +30,22 @@
         </p>
     </div>
     <div class="row contact">
-        <p class="col-12 center">Contact</p>
-        <label for="name" class="col-4 offset-2">Name</label>
-        <label for="message" class="col-4 offset-1">Message</label>
-        <!-- <hr> -->
-        <input type="text" class="col-4 offset-1">
-        <!-- <textarea class="col-4 offset-1" name="name" id=""></textarea> -->
-        <textarea class="col-5 offset-1" name="name" id=""></textarea>
-        <p class="center">
-            <button class="click">Send Message!</button>
-        </p>
-        <!-- <input type="text" class="col-4" style="margin-left: 5vh;"> -->
-
+        <form method="POST" action="https://formspree.io/quincye.williams@gmail.com">
+            <p class="col-12 center">Contact</p>
+            <!-- <input type="text" name class="col-4 offset-1"> -->
+            <textarea class="col-4 offset-1" name="name" id="" placeholder="Name:"></textarea>
+            <textarea class="col-4 offset-2" name="message" id="" placeholder="Message:"></textarea>
+            <p class="center">
+                <button onclick="pD(event)" class="click">Send Message!</button>
+            </p>
+        </form>
     </div>
-
+    <script>
+        function pD(e){
+            console.log(e)
+            e.preventDefault()
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
