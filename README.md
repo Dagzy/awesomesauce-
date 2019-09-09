@@ -1,1 +1,3 @@
-Hello everyone! Had some trouble sleeping so I spent a few minutes putting together v1 of the app.  It's super basic right now, but at least I've got a target to aim for, and everyone can check on progress. Harold Wright: I hope you don't mind that I've used your images. Please let me know if you'd like that changed.
+# This repository houses the source code for an application focused on producing an independent social media interface for the Burning Man event camp Awesomesauce.
+
+## Offering CRUD functionality powered by full-stack JavaScript, the project intends on providing features including user-authenticated route protection, WebSocket-driven instant messaging, file upload, and rich profile creation.
